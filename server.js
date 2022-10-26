@@ -33,7 +33,7 @@ App.use(morgan('common'));
 App.use(MethodOverride( 'X-HTTP-Method-Override'));
 
 App.all('/*',[require('./app/middlewares/allowCrossDomain')]);
-
+// nhận tất cả URL
 
 // Public location
 
